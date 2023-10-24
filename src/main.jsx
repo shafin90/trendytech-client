@@ -5,12 +5,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
+import Home from './pages/Home/Home';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div className=' text-purple-900'>Hello world!</div>,
+    element: <Home></Home>,
   },
 ]);
 
