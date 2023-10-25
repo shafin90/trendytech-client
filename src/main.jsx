@@ -7,6 +7,8 @@ import {
 import './index.css'
 import Home from './pages/Home/Home';
 import AuthProvider from './components/AuthProvider/AuthProvider';
+import LoginPage from './pages/LoginPage/LoginPage';
+import RegistrationPage from './pages/RegistrationPage/RegistrationPge';
 
 
 const router = createBrowserRouter([
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home></Home>,
   },
+  {
+    path:'/login',
+    element:<LoginPage></LoginPage>
+  },
+  {
+    path:'/registration',
+    element:<RegistrationPage></RegistrationPage>
+  }
 ]);
 
 

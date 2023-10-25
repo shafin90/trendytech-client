@@ -2,7 +2,7 @@
 //  This component is basically 1/3  partition of banner.
 
 const BannerPartition = ({img,width,height,heading,headingSize,topic,dateAndPublisherName}) => {
-   
+    
     return (
         <div
             style={

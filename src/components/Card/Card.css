@@ -1,0 +1,5 @@
+.image-hover-effect:hover {
+    filter: saturate(0.5);
+    /* filter: brightness(1.1); Increase brightness by 10% on hover */
+    transition: filter 0.3s; /* Add a smooth transition effect */
+}
