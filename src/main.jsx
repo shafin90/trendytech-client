@@ -9,6 +9,7 @@ import Home from './pages/Home/Home';
 import AuthProvider from './components/AuthProvider/AuthProvider';
 import LoginPage from './pages/LoginPage/LoginPage';
 import RegistrationPage from './pages/RegistrationPage/RegistrationPge';
+import PublishBlog from './pages/PublishBlog/PublishBlog';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path:'/registration',
     element:<RegistrationPage></RegistrationPage>
+  },
+  {
+    path:'/publish',
+    element:<PublishBlog></PublishBlog>
   }
 ]);
 

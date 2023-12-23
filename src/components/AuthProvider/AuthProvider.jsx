@@ -9,7 +9,6 @@ const AuthProvider = ({children}) => {
     const [theme, setTheme] = useState(true); // determine the bg-color of the website. true?'white':'black'
     
     
-    
     // Handle functionality of this website======================================================================
     
     // Handle theme

@@ -19,7 +19,6 @@ const MainNavigation = () => {
             <li className={theme?" font-bold list-none hover:text-orange-600 transition-all cursor-pointer":" text-white font-bold list-none hover:text-orange-600 transition-all cursor-pointer"}>Top Apps</li>
             <li className={theme?" font-bold list-none hover:text-orange-600 transition-all cursor-pointer":" text-white font-bold list-none hover:text-orange-600 transition-all cursor-pointer"}>Hot Tech</li>
             <li className={theme?" font-bold list-none hover:text-orange-600 transition-all cursor-pointer":" text-white font-bold list-none hover:text-orange-600 transition-all cursor-pointer"}>Gadgets</li>
-            
         </ul>
        </div>
     );

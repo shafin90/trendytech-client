@@ -22,7 +22,7 @@ const LogoContainer = () => {
     return (
         <div className=" w-screen h-20 flex justify-between items-center px-6 mb-4">
             {/* plus icon to publish a blog */}
-            <FiFilePlus className= {theme?' text-3xl cursor-pointer  hover:text-orange-700 transition-all': ' text-3xl text-white cursor-pointer  hover:text-orange-700 transition-all'}></FiFilePlus>
+            <FiFilePlus onClick={()=>navigate('/publish')} className= {theme?' text-3xl cursor-pointer  hover:text-orange-700 transition-all': ' text-3xl text-white cursor-pointer  hover:text-orange-700 transition-all'}></FiFilePlus>
 
             {/* Logo of this website */}
             <h1 className=" text-6xl font-bold"><span className=" text-orange-600" >T</span><span className={theme?' text-black':" text-white"}>rendyTech</span> </h1>
