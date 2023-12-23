@@ -31,7 +31,6 @@ export default function PublishBlog() {
         setFile(
             URL.createObjectURL(event.target.files[0])
         );
-        const formData = new FormData();
     };
     
     console.log(file)
