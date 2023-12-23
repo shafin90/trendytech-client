@@ -34,7 +34,7 @@ export default function PublishBlog() {
         const formData = new FormData();
     };
     
-    // console.log(file)
+    console.log(file)
     
     return (
         <div className=' w-8/12 block mx-auto my-20'>
