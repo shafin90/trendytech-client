@@ -4,13 +4,15 @@ import { useNavigate } from 'react-router-dom'
 import { IoArrowBack } from 'react-icons/io5'
 import ReactQuill from 'react-quill'; // Import React Quill
 import 'react-quill/dist/quill.snow.css'; // Import Quill styles
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { authContext } from '../../components/AuthProvider/AuthProvider';
 
 
 export default function PublishBlog() {
+    const {file, setFile} = useContext(authContext);
     const navigate = useNavigate();
     const [blogContent, setBlogContent] = useState(''); // State to store blog content
-    const [file, setFile] = useState([]);
+    
     const formats = [
         'header',
         'bold',

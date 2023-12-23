@@ -10,7 +10,7 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 
 const Home = () => {
     // Recieving state and function from AuthProvider component
-    const { theme } = useContext(authContext);
+    const { theme, file } = useContext(authContext);
 
     // Function to navigate user to the specific blog page
     const handleViewMore = () => {
@@ -28,6 +28,8 @@ const Home = () => {
                 title="Try it, You will love it"
                 onClick={handleViewMore}
             ></ProductCard>
+
+            <img src={file} alt="" />
         </div>
     );
 };
